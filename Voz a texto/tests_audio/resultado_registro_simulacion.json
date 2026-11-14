@@ -1,0 +1,235 @@
+{
+  "trace_id": "aa56e00b",
+  "commerce_id": "pizzeria-demo",
+  "evento": {
+    "message_id": "wamid-pizza-test-001",
+    "customer_id": "customer-pizza-001",
+    "transcript": "Hola, quiero pedir dos pizzas grandes, una de muzza y otra napolitana para retirar.",
+    "catalog_version": "2026-11-14T12:00:00-03:00",
+    "catalog": []
+  },
+  "message_id": "wamid-pizza-test-001",
+  "customer_id": "customer-pizza-001",
+  "transcript": "Hola, quiero pedir dos pizzas grandes, una de muzza y otra napolitana para retirar.",
+  "catalog": [
+    {
+      "sku": "PIZ-G-MUZ",
+      "name": "Pizza grande de muzzarella",
+      "categoria": "pizzas",
+      "unidad": "unidad",
+      "price": 14500,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "pizza grande de muzza",
+        "pizza de muzzarella",
+        "pizza de muzza",
+        "muzza",
+        "musa"
+      ],
+      "phonetic_aliases": [
+        "pizza de musa",
+        "pisa de musa",
+        "pizza de muza"
+      ]
+    },
+    {
+      "sku": "PIZ-G-NAP",
+      "name": "Pizza grande napolitana",
+      "categoria": "pizzas",
+      "unidad": "unidad",
+      "price": 16800,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "pizza grande napolitana",
+        "pizza napolitana",
+        "napolitana"
+      ],
+      "phonetic_aliases": [
+        "pizza napolitana",
+        "napolitana"
+      ]
+    },
+    {
+      "sku": "PIZ-G-CAL",
+      "name": "Pizza grande calabresa",
+      "categoria": "pizzas",
+      "unidad": "unidad",
+      "price": 15200,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "pizza grande calabresa",
+        "pizza calabresa",
+        "calabresa"
+      ],
+      "phonetic_aliases": []
+    }
+  ],
+  "catalog_version": "2026-11-14T12:00:00-03:00",
+  "audio_url": null,
+  "items": [
+    {
+      "sku": "PIZ-G-MUZ",
+      "name": "Pizza grande de muzzarella",
+      "quantity": 1,
+      "unit_price": "14500",
+      "currency": "ARS",
+      "available": true,
+      "confidence": 0.98,
+      "observations": [
+        "nivel: confirm"
+      ],
+      "original_text": "muzza",
+      "normalized_match": "pizza grande de muzzarella",
+      "match_method": "exacto"
+    },
+    {
+      "sku": "PIZ-G-NAP",
+      "name": "Pizza grande napolitana",
+      "quantity": 1,
+      "unit_price": "16800",
+      "currency": "ARS",
+      "available": true,
+      "confidence": 0.98,
+      "observations": [
+        "nivel: confirm"
+      ],
+      "original_text": "napolitana para retirar",
+      "normalized_match": "pizza grande napolitana",
+      "match_method": "exacto"
+    }
+  ],
+  "fulfillment": {
+    "type": "pickup",
+    "requested_time": null,
+    "address": null
+  },
+  "fulfillment_type": "pickup",
+  "subtotal": "31300.00",
+  "total": "31300.00",
+  "currency": "ARS",
+  "line_totals": [
+    {
+      "sku": "PIZ-G-MUZ",
+      "quantity": 1,
+      "unit_price": "14500.00",
+      "line_total": "14500.00"
+    },
+    {
+      "sku": "PIZ-G-NAP",
+      "quantity": 1,
+      "unit_price": "16800.00",
+      "line_total": "16800.00"
+    }
+  ],
+  "estado": "borrador",
+  "clave_idempotencia": "67c31251c86a59096f11db92d1a033c502eca55e49383ce54993c41a85a596e4",
+  "clave_pedido": "b322749edae64b179b29152b1a642638",
+  "pedido": {
+    "status": "requires_confirmation",
+    "source_message_id": "wamid-pizza-test-001",
+    "items": [
+      {
+        "sku": "PIZ-G-MUZ",
+        "name": "Pizza grande de muzzarella",
+        "quantity": 1,
+        "unit_price": "14500.00",
+        "currency": "ARS",
+        "confidence": 0.98,
+        "original_text": "muzza",
+        "normalized_match": "pizza grande de muzzarella",
+        "match_method": "exacto",
+        "unidad": "unidad",
+        "observations": [
+          "nivel: confirm"
+        ],
+        "available": true
+      },
+      {
+        "sku": "PIZ-G-NAP",
+        "name": "Pizza grande napolitana",
+        "quantity": 1,
+        "unit_price": "16800.00",
+        "currency": "ARS",
+        "confidence": 0.98,
+        "original_text": "napolitana para retirar",
+        "normalized_match": "pizza grande napolitana",
+        "match_method": "exacto",
+        "unidad": "unidad",
+        "observations": [
+          "nivel: confirm"
+        ],
+        "available": true
+      }
+    ],
+    "fulfillment": {
+      "type": "pickup",
+      "requested_time": null,
+      "address": null
+    },
+    "missing_information": [],
+    "productos_no_identificados": [],
+    "productos_no_disponibles": [],
+    "subtotal": "31300.00",
+    "currency": "ARS",
+    "customer_message": "Tu pedido es: 1x Pizza grande de muzzarella y 1x Pizza grande napolitana. Total: 31300.00 ARS. Retiro en local. Responde CONFIRMAR para registrarlo o indicame que queres cambiar.",
+    "total": "31300.00"
+  },
+  "registro": {
+    "clave_pedido": "b322749edae64b179b29152b1a642638",
+    "source_message_id": "wamid-pizza-test-001",
+    "estado": "borrador",
+    "registrado_en": "2026-11-14T18:43:26.392150+00:00",
+    "simulacion": true,
+    "items": [
+      {
+        "sku": "PIZ-G-MUZ",
+        "name": "Pizza grande de muzzarella",
+        "quantity": 1,
+        "unit_price": "14500.00",
+        "currency": "ARS",
+        "confidence": 0.98,
+        "original_text": "muzza",
+        "normalized_match": "pizza grande de muzzarella",
+        "match_method": "exacto",
+        "unidad": "unidad",
+        "observations": [
+          "nivel: confirm"
+        ],
+        "available": true
+      },
+      {
+        "sku": "PIZ-G-NAP",
+        "name": "Pizza grande napolitana",
+        "quantity": 1,
+        "unit_price": "16800.00",
+        "currency": "ARS",
+        "confidence": 0.98,
+        "original_text": "napolitana para retirar",
+        "normalized_match": "pizza grande napolitana",
+        "match_method": "exacto",
+        "unidad": "unidad",
+        "observations": [
+          "nivel: confirm"
+        ],
+        "available": true
+      }
+    ],
+    "subtotal": "31300.00",
+    "total": "31300.00",
+    "currency": "ARS",
+    "fulfillment": {
+      "type": "pickup",
+      "requested_time": null,
+      "address": null
+    },
+    "mensaje": "Modo simulacion: pedido no registrado. Use REGISTRAR_PEDIDOS=1 para registrar."
+  },
+  "errores": [],
+  "advertencias": [],
+  "simulacion": true,
+  "productos_no_identificados": [],
+  "productos_no_disponibles": []
+}

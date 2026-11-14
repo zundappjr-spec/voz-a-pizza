@@ -1,0 +1,10 @@
+{
+  "message_id": "wamid-98765",
+  "customer_id": "customer-8f31c2",
+  "transcript": "Mandame dos pizzas grandes, una de muzza y otra napolitana",
+  "catalog_version": "2026-11-14T12:00:00-03:00",
+  "catalog": [
+    { "sku": "PIZ-G-MUZ", "name": "Pizza grande de muzzarella", "price": 14500, "currency": "ARS", "available": true },
+    { "sku": "PIZ-G-NAP", "name": "Pizza grande napolitana", "price": 16800, "currency": "ARS", "available": true }
+  ]
+}

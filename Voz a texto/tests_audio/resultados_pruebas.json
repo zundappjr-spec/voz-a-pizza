@@ -1,0 +1,109 @@
+[
+  {
+    "texto": "dos pizzas, una de muzza y otra napolitana",
+    "estado": "requires_confirmation",
+    "items": 2,
+    "total": "31300.00",
+    "fulfillment_type": null,
+    "missing_information": []
+  },
+  {
+    "texto": "dos pisas, una de musa y otra napolitana",
+    "estado": "requires_confirmation",
+    "items": 2,
+    "total": "31300.00",
+    "fulfillment_type": null,
+    "missing_information": []
+  },
+  {
+    "texto": "tres pizzas, una de muzza y otra napolitana",
+    "estado": "requires_clarification",
+    "items": 2,
+    "total": "31300.00",
+    "fulfillment_type": null,
+    "missing_information": [
+      "cantidad_total_vs_variantes: se mencionaron 3 unidades pero solo se identificaron 2 variantes"
+    ]
+  },
+  {
+    "texto": "una docena de empanadas de carne",
+    "estado": "requires_clarification",
+    "items": 0,
+    "total": "0.00",
+    "fulfillment_type": null,
+    "missing_information": [
+      "productos_no_identificados: no se reconocieron 'docena de empanadas de carne'"
+    ]
+  },
+  {
+    "texto": "dos empanadas, sin indicar gusto",
+    "estado": "requires_clarification",
+    "items": 0,
+    "total": "0.00",
+    "fulfillment_type": null,
+    "missing_information": [
+      "productos_no_identificados: no se reconocieron 'empanadas'"
+    ]
+  },
+  {
+    "texto": "pizza de musa",
+    "estado": "requires_confirmation",
+    "items": 1,
+    "total": "14500.00",
+    "fulfillment_type": null,
+    "missing_information": []
+  },
+  {
+    "texto": "pizza",
+    "estado": "requires_clarification",
+    "items": 0,
+    "total": "0.00",
+    "fulfillment_type": null,
+    "missing_information": [
+      "ambiguedad_producto: 'pizza' coincide con 3 productos: Pizza grande de muzzarella, Pizza grande napolitana, Pizza grande calabresa"
+    ]
+  },
+  {
+    "texto": "paso a retirar",
+    "estado": "requires_clarification",
+    "items": 0,
+    "total": "0.00",
+    "fulfillment_type": "pickup",
+    "missing_information": []
+  },
+  {
+    "texto": "mandamelo a domicilio",
+    "estado": "requires_clarification",
+    "items": 0,
+    "total": "0.00",
+    "fulfillment_type": "delivery",
+    "missing_information": []
+  },
+  {
+    "texto": "una pizza de muzza",
+    "estado": "requires_confirmation",
+    "items": 1,
+    "total": "14500.00",
+    "fulfillment_type": null,
+    "missing_information": []
+  },
+  {
+    "texto": "una pizza cuatro estaciones",
+    "estado": "requires_clarification",
+    "items": 0,
+    "total": "0.00",
+    "fulfillment_type": null,
+    "missing_information": [
+      "ambiguedad_producto: 'pizza cuatro estaciones' coincide con 3 productos",
+      "productos_no_identificados: no se reconocieron 'pizza cuatro estaciones'"
+    ]
+  },
+  {
+    "texto": "hola como estas que tal el clima hoy",
+    "estado": "requires_clarification",
+    "items": 0,
+    "total": "0.00",
+    "fulfillment_type": null,
+    "missing_information": []
+  }
+]

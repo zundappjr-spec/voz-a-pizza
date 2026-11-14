@@ -1,0 +1,35 @@
+{
+  "PIZ-G-MUZ": {
+    "aliases": [
+      "pizza grande de muzza",
+      "pizza de muzzarella",
+      "pizza de muzza",
+      "muzza",
+      "musa"
+    ],
+    "phonetic_aliases": [
+      "pizza de musa",
+      "pisa de musa",
+      "pizza de muza"
+    ]
+  },
+  "PIZ-G-NAP": {
+    "aliases": [
+      "pizza grande napolitana",
+      "pizza napolitana",
+      "napolitana"
+    ],
+    "phonetic_aliases": [
+      "pizza napolitana",
+      "napolitana"
+    ]
+  },
+  "PIZ-G-CAL": {
+    "aliases": [
+      "pizza grande calabresa",
+      "pizza calabresa",
+      "calabresa"
+    ],
+    "phonetic_aliases": []
+  }
+}

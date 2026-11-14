@@ -1,0 +1,69 @@
+[
+  {
+    "prueba": "Supermercado - transcripción real",
+    "comercio": "supermercado-demo",
+    "trace_id": "1765e661",
+    "estado_final": "requires_clarification",
+    "errores": [],
+    "items": 3,
+    "subtotal": "45140.00",
+    "total": "45140.00",
+    "registro_estado": "no ejecutado",
+    "clave_pedido": "N/A",
+    "simulacion": true
+  },
+  {
+    "prueba": "Pizzería - dos pizzas para retirar",
+    "comercio": "pizzeria-demo",
+    "trace_id": "4ff0298a",
+    "estado_final": "requires_confirmation",
+    "errores": [],
+    "items": 2,
+    "subtotal": "31300.00",
+    "total": "31300.00",
+    "registro_estado": "no ejecutado",
+    "clave_pedido": "N/A",
+    "simulacion": true
+  },
+  {
+    "prueba": "Pizzería - confirmar y registrar (simulación)",
+    "comercio": "pizzeria-demo",
+    "trace_id": "02c60690",
+    "estado_final": "error",
+    "errores": [
+      "BACKEND_PEDIDOS_URL no configurado"
+    ],
+    "items": 2,
+    "subtotal": "31300.00",
+    "total": "31300.00",
+    "registro_estado": "error",
+    "clave_pedido": "b322749edae64b179b29152b1a642638",
+    "simulacion": false
+  },
+  {
+    "prueba": "Idempotencia - primera ejecución",
+    "comercio": "pizzeria-demo",
+    "trace_id": "b345fc01",
+    "estado_final": "requires_confirmation",
+    "errores": [],
+    "items": 2,
+    "subtotal": "31300.00",
+    "total": "31300.00",
+    "registro_estado": "no ejecutado",
+    "clave_pedido": "N/A",
+    "simulacion": true
+  },
+  {
+    "prueba": "Idempotencia - segunda ejecución (duplicado)",
+    "comercio": "pizzeria-demo",
+    "trace_id": "f9382f6f",
+    "estado_final": "requires_confirmation",
+    "errores": [],
+    "items": 2,
+    "subtotal": "31300.00",
+    "total": "31300.00",
+    "registro_estado": "no ejecutado",
+    "clave_pedido": "N/A",
+    "simulacion": true
+  }
+]

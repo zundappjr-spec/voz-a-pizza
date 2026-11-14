@@ -1,0 +1,4 @@
+faster-whisper
+streamlit
+imageio-ffmpeg
+av==18.0.0

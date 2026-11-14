@@ -1,0 +1,63 @@
+{
+  "comercio_id": "pizzeria-demo",
+  "nombre": "Pizzería Demo",
+  "categorias": [
+    "pizzas"
+  ],
+  "productos": [
+    {
+      "sku": "PIZ-G-MUZ",
+      "name": "Pizza grande de muzzarella",
+      "categoria": "pizzas",
+      "unidad": "unidad",
+      "price": 14500,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "pizza grande de muzza",
+        "pizza de muzzarella",
+        "pizza de muzza",
+        "muzza",
+        "musa"
+      ],
+      "phonetic_aliases": [
+        "pizza de musa",
+        "pisa de musa",
+        "pizza de muza"
+      ]
+    },
+    {
+      "sku": "PIZ-G-NAP",
+      "name": "Pizza grande napolitana",
+      "categoria": "pizzas",
+      "unidad": "unidad",
+      "price": 16800,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "pizza grande napolitana",
+        "pizza napolitana",
+        "napolitana"
+      ],
+      "phonetic_aliases": [
+        "pizza napolitana",
+        "napolitana"
+      ]
+    },
+    {
+      "sku": "PIZ-G-CAL",
+      "name": "Pizza grande calabresa",
+      "categoria": "pizzas",
+      "unidad": "unidad",
+      "price": 15200,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "pizza grande calabresa",
+        "pizza calabresa",
+        "calabresa"
+      ],
+      "phonetic_aliases": []
+    }
+  ]
+}

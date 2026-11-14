@@ -1,0 +1,31 @@
+{
+  "id": "pedido-claro",
+  "nombre": "Pedido claro y completo",
+  "descripcion": "Transcripcion con productos, cantidades y entrega claras.",
+  "entrada": {
+    "message_id": "wamid-001",
+    "customer_id": "customer-8f31c2",
+    "transcript": "Mandame dos pizzas grandes, una de muzza y otra napolitana, para retirar a las 21",
+    "catalog_version": "2026-11-14T12:00:00-03:00",
+    "catalog": [
+      { "sku": "PIZ-G-MUZ", "name": "Pizza grande de muzzarella", "price": 14500, "currency": "ARS", "available": true },
+      { "sku": "PIZ-G-NAP", "name": "Pizza grande napolitana", "price": 16800, "currency": "ARS", "available": true }
+    ]
+  },
+  "resultado_esperado": {
+    "status": "requires_confirmation",
+    "items": [
+      { "sku": "PIZ-G-MUZ", "quantity": 1, "unit_price": 14500, "currency": "ARS", "confidence": 0.97 },
+      { "sku": "PIZ-G-NAP", "quantity": 1, "unit_price": 16800, "currency": "ARS", "confidence": 0.95 }
+    ],
+    "subtotal": 31300,
+    "currency": "ARS",
+    "missing_information": []
+  },
+  "criterios": [
+    "Todos los productos existen en el catalogo",
+    "Subtotal coincide con la suma de precios del catalogo",
+    "No hay datos faltantes",
+    "Listo para confirmacion humana"
+  ]
+}

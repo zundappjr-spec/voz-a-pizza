@@ -1,0 +1,30 @@
+{
+  "id": "webhook-duplicado",
+  "nombre": "Webhook repetido",
+  "descripcion": "El mismo message_id llega dos veces; no debe generar pedidos duplicados.",
+  "entrada": {
+    "message_id": "wamid-003",
+    "customer_id": "customer-8f31c2",
+    "transcript": "Una pizza grande de muzzarella para retirar",
+    "catalog_version": "2026-11-14T12:00:00-03:00",
+    "catalog": [
+      { "sku": "PIZ-G-MUZ", "name": "Pizza grande de muzzarella", "price": 14500, "currency": "ARS", "available": true }
+    ]
+  },
+  "resultado_esperado": {
+    "primera_vez": {
+      "status": "requires_confirmation",
+      "clave_idempotencia_usa": "message_id"
+    },
+    "repeticion": {
+      "status": "duplicado",
+      "devuelve_resultado_ya_obtenido": true,
+      "no_crea_segundo_pedido": true
+    }
+  },
+  "criterios": [
+    "Un webhook duplicado no genera pedidos duplicados",
+    "Se devuelve el resultado ya obtenido para el mismo message_id",
+    "La clave de idempotencia usa commerce_id|message_id|operation|catalog_version"
+  ]
+}

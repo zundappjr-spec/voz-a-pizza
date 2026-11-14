@@ -1,0 +1,11 @@
+{
+  "message_id": "wamid-e2e-prueba-001",
+  "customer_id": "customer-e2e-001",
+  "transcript": "Hola, quiero pedir dos pisas grandes, una de musa y otra napolitana para retirar.",
+  "catalog_version": "2026-11-14T12:00:00-03:00",
+  "catalog": [
+    { "sku": "PIZ-G-MUZ", "name": "Pizza grande de muzzarella", "price": 14500, "currency": "ARS", "available": true },
+    { "sku": "PIZ-G-NAP", "name": "Pizza grande napolitana", "price": 16800, "currency": "ARS", "available": true },
+    { "sku": "PIZ-G-CAL", "name": "Pizza grande calabresa", "price": 15200, "currency": "ARS", "available": true }
+  ]
+}

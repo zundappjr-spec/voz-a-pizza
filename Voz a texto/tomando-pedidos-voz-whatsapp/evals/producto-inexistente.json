@@ -1,0 +1,28 @@
+{
+  "id": "producto-inexistente",
+  "nombre": "Producto inexistente",
+  "descripcion": "El cliente pide un producto que no esta en el catalogo.",
+  "entrada": {
+    "message_id": "wamid-002",
+    "customer_id": "customer-8f31c2",
+    "transcript": "Quiero una pizza cuatro estaciones grande",
+    "catalog_version": "2026-11-14T12:00:00-03:00",
+    "catalog": [
+      { "sku": "PIZ-G-MUZ", "name": "Pizza grande de muzzarella", "price": 14500, "currency": "ARS", "available": true },
+      { "sku": "PIZ-G-NAP", "name": "Pizza grande napolitana", "price": 16800, "currency": "ARS", "available": true },
+      { "sku": "PIZ-G-CAL", "name": "Pizza grande calabresa", "price": 15200, "currency": "ARS", "available": true }
+    ]
+  },
+  "resultado_esperado": {
+    "status": "requires_clarification",
+    "items": [],
+    "missing_information": ["producto.valido"],
+    "alternativas": ["PIZ-G-MUZ", "PIZ-G-NAP", "PIZ-G-CAL"],
+    "cliente_mensaje_contiene": "No encontre pizza cuatro estaciones en el menu"
+  },
+  "criterios": [
+    "Ningun producto inexistente se registra como valido",
+    "Se informan alternativas reales del catalogo",
+    "No se selecciona ningun sustituto automaticamente"
+  ]
+}

@@ -1,0 +1,525 @@
+{
+  "comercio_id": "supermercado-demo",
+  "nombre": "Supermercado Demo",
+  "categorias": [
+    "almacen",
+    "limpieza",
+    "bebidas",
+    "carniceria",
+    "fruteria",
+    "panaderia",
+    "libreria"
+  ],
+  "productos": [
+    {
+      "sku": "SUP-RESMA-A4",
+      "name": "Resma de papel A4",
+      "categoria": "libreria",
+      "unidad": "resma",
+      "price": 2500,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "resma papel a4",
+        "paquete de hojas a4",
+        "resma hojas a4"
+      ],
+      "phonetic_aliases": [
+        "resma papel a cuatro",
+        "resema papel a4"
+      ]
+    },
+    {
+      "sku": "SUP-TOMATE-LATA",
+      "name": "Tomate triturado en lata",
+      "categoria": "almacen",
+      "unidad": "lata",
+      "price": 450,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "tomate en lata",
+        "lata de tomate triturado",
+        "tomate triturado lata"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-MANDARINA",
+      "name": "Mandarina",
+      "categoria": "fruteria",
+      "unidad": "unidad",
+      "price": 120,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "mandarinas",
+        "fruta mandarina"
+      ],
+      "phonetic_aliases": [
+        "mandarina",
+        "mantarina"
+      ]
+    },
+    {
+      "sku": "SUP-CARNE-VACUNA",
+      "name": "Carne vacuna",
+      "categoria": "carniceria",
+      "unidad": "kilogramo",
+      "price": 5500,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "carne de vaca",
+        "carne vacuna",
+        "carne de res"
+      ],
+      "phonetic_aliases": [
+        "carne de vacuna",
+        "carne de vaca"
+      ]
+    },
+    {
+      "sku": "SUP-CARNE-CERDO",
+      "name": "Carne de cerdo",
+      "categoria": "carniceria",
+      "unidad": "kilogramo",
+      "price": 4200,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "cerdo",
+        "carne de chancho",
+        "carne porcina"
+      ],
+      "phonetic_aliases": [
+        "carne de cerdo",
+        "carne de cerdo"
+      ]
+    },
+    {
+      "sku": "SUP-ARROZ",
+      "name": "Arroz",
+      "categoria": "almacen",
+      "unidad": "kilogramo",
+      "price": 650,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "arroz blanco",
+        "paquete de arroz",
+        "arroz grano"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-FIDEOS",
+      "name": "Fideos",
+      "categoria": "almacen",
+      "unidad": "paquete",
+      "price": 380,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "paquete de fideos",
+        "fideos secos",
+        "tallarines"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-LECHE",
+      "name": "Leche",
+      "categoria": "almacen",
+      "unidad": "litro",
+      "price": 700,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "leche entera",
+        "litro de leche",
+        "leche larga vida"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-AZUCAR",
+      "name": "Azúcar",
+      "categoria": "almacen",
+      "unidad": "kilogramo",
+      "price": 520,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "azucar blanca",
+        "kilo de azucar",
+        "azucar comun"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-YERBA",
+      "name": "Yerba",
+      "categoria": "almacen",
+      "unidad": "paquete",
+      "price": 1800,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "yerba mate",
+        "paquete de yerba",
+        "yerba canchada"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-ACEITE",
+      "name": "Aceite",
+      "categoria": "almacen",
+      "unidad": "litro",
+      "price": 1450,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "aceite de girasol",
+        "litro de aceite",
+        "aceite vegetal"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-HARINA",
+      "name": "Harina",
+      "categoria": "almacen",
+      "unidad": "kilogramo",
+      "price": 480,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "harina 000",
+        "paquete de harina",
+        "harina comun"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-HUEVOS",
+      "name": "Huevos",
+      "categoria": "almacen",
+      "unidad": "unidad",
+      "price": 9500,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "docena de huevos",
+        "huevos blancos",
+        "huevo"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-PAN",
+      "name": "Pan",
+      "categoria": "panaderia",
+      "unidad": "unidad",
+      "price": 250,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "pan blanco",
+        "pan de campo",
+        "pan lactal"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-CAFE",
+      "name": "Café",
+      "categoria": "almacen",
+      "unidad": "paquete",
+      "price": 2200,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "cafe molido",
+        "paquete de cafe",
+        "cafe soluble"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-TE",
+      "name": "Té",
+      "categoria": "almacen",
+      "unidad": "paquete",
+      "price": 950,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "te en bolsitas",
+        "paquete de te",
+        "te negro"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-GALLETITAS",
+      "name": "Galletitas",
+      "categoria": "almacen",
+      "unidad": "paquete",
+      "price": 650,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "galletitas dulces",
+        "paquete de galletitas",
+        "galletas"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-AGUA",
+      "name": "Agua mineral",
+      "categoria": "bebidas",
+      "unidad": "litro",
+      "price": 180,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "agua mineral sin gas",
+        "botella de agua",
+        "agua con gas"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-GASEOSA",
+      "name": "Gaseosa",
+      "categoria": "bebidas",
+      "unidad": "litro",
+      "price": 750,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "gaseosa cola",
+        "botella de gaseosa",
+        "refresco"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-DETERGENTE",
+      "name": "Detergente",
+      "categoria": "limpieza",
+      "unidad": "unidad",
+      "price": 320,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "detergente lavavajillas",
+        "botella detergente",
+        "jabon lavavajillas"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-JABON",
+      "name": "Jabón de tocador",
+      "categoria": "limpieza",
+      "unidad": "unidad",
+      "price": 280,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "jabon de baño",
+        "jabon tocador",
+        "barra de jabon"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-AMAS",
+      "name": "Amasadora",
+      "categoria": "limpieza",
+      "unidad": "unidad",
+      "price": 8500,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "ama casa",
+        "ama de llaves",
+        "ama"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-ARROZ-INTEGRAL",
+      "name": "Arroz integral",
+      "categoria": "almacen",
+      "unidad": "kilogramo",
+      "price": 780,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "arroz moro",
+        "arroz integral paquete",
+        "arroz pardo"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-AZUCAR-RUBIA",
+      "name": "Azúcar rubia",
+      "categoria": "almacen",
+      "unidad": "kilogramo",
+      "price": 580,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "azucar morena",
+        "azucar rubia kilo",
+        "azucar integral"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-ACEITE-OLIVA",
+      "name": "Aceite de oliva",
+      "categoria": "almacen",
+      "unidad": "litro",
+      "price": 3200,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "aceite oliva virgen",
+        "litro aceite oliva",
+        "aceite de oliva extra"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-HARINA-LEUDANTE",
+      "name": "Harina leudante",
+      "categoria": "almacen",
+      "unidad": "kilogramo",
+      "price": 560,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "harina leudante paquete",
+        "harina con polvo",
+        "harina leudante"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-PAN-MOLDE",
+      "name": "Pan de molde",
+      "categoria": "panaderia",
+      "unidad": "unidad",
+      "price": 650,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "pan lactal",
+        "pan de molde paquete",
+        "pan blanco molde"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-CAFE-ENTRENA",
+      "name": "Café en grano",
+      "categoria": "almacen",
+      "unidad": "paquete",
+      "price": 2800,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "cafe en grano",
+        "granos de cafe",
+        "cafe entero"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-TE-VERDE",
+      "name": "Té verde",
+      "categoria": "almacen",
+      "unidad": "paquete",
+      "price": 1200,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "te verde bolsitas",
+        "te verde paquete",
+        "infusion te verde"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-GALLETITAS-SALADAS",
+      "name": "Galletitas saladas",
+      "categoria": "almacen",
+      "unidad": "paquete",
+      "price": 620,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "galletitas saladas",
+        "crackers",
+        "paquete saladas"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-AGUA-GAS",
+      "name": "Agua con gas",
+      "categoria": "bebidas",
+      "unidad": "litro",
+      "price": 220,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "agua con gas",
+        "agua mineral gas",
+        "agua soda"
+      ],
+      "phonetic_aliases": []
+    },
+    {
+      "sku": "SUP-GASEOSA-LIGHT",
+      "name": "Gaseosa light",
+      "categoria": "bebidas",
+      "unidad": "litro",
+      "price": 720,
+      "currency": "ARS",
+      "available": true,
+      "aliases": [
+        "gaseosa sin azucar",
+        "gaseosa light cola",
+        "refresco light"
+      ],
+      "phonetic_aliases": []
+    }
+  ],
+  "producto_no_disponible": {
+    "sku": "SUP-NAFTA-SUPER",
+    "name": "Nafta súper",
+    "categoria": "combustibles",
+    "unidad": "litro",
+    "price": null,
+    "currency": "ARS",
+    "available": false,
+    "aliases": [
+      "nafta super",
+      "nafta súper",
+      "combustible nafta"
+    ],
+    "phonetic_aliases": [
+      "nasta super",
+      "nasta súper",
+      "nafta super"
+    ]
+  }
+}

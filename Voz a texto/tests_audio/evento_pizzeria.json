@@ -1,0 +1,7 @@
+{
+  "message_id": "wamid-pizza-test-001",
+  "customer_id": "customer-pizza-001",
+  "transcript": "Hola, quiero pedir dos pizzas grandes, una de muzza y otra napolitana para retirar.",
+  "catalog_version": "2026-11-14T12:00:00-03:00",
+  "catalog": []
+}
